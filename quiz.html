@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>แบบทดสอบ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Electronics</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> เมนู
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active"><a href="index.html" class="nav-link">หน้าแรก</a></li>
+                  <li class="nav-item"><a href="chapter1.html" class="nav-link">บทที่1</a></li>
+                  <li class="nav-item"><a href="chapter2.html" class="nav-link">บทที่2</a></li>
+                  <li class="nav-item"><a href="chapter3.html" class="nav-link">บทที่3</a></li>
+                  <li class="nav-item"><a href="chapter4.html" class="nav-link">บทที่4</a></li>
+                  <li class="nav-item"><a href="quiz.html" class="nav-link">แบบทดสอบ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END nav -->
+    <div class="block-31" style="position: relative;">
+        <div class="block-30 item" style="background-image: url('images/quiz.png');">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-10">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row site-section">
+            <div class="col-md-12">
+                <div class="row mb-5">
+                  <div class="col-md-7 section-heading">
+                    <h4 class="heading">แบบทดสอบ</h4>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <center><p><b></b><div id="results" class="results"></div></b></p></center>
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <p>1.เด็กหญิงสมหญิง เปิดและปิดโทรทัศน์โดยใช้ระบบรีโมท อุปกรณ์ใดที่ทำหน้าที่เปิดและปิดวงจร</p>
+            <input type="radio" id="q1a1" name="q1" value="ไดโอด">
+            <label for="q1a1">ไดโอด</label><br>
+            <input type="radio" id="q1a2" name="q1" value="ซิลิคอนชิป">
+            <label for="q1a2">ซิลิคอนชิป</label><br>
+            <input type="radio" id="q1a3" name="q1" value="ตัวต้านทาน">
+            <label for="q1a3">ตัวต้านทาน</label><br>
+            <input type="radio" id="q1a4" name="q1" value="ทรานซิสเตอร์">
+            <label for="q1a4">ทรานซิสเตอร์</label><br>
+            <div class="answer" id="answer1"></div> <!-- Show answer here --><hr>
+            <!-- Question 2 -->
+            <p>2.เครื่องมือที่ใช้วัดความต้านทานของตัวต้านทาน เรียกตามข้อใด</p>
+            <input type="radio" id="q2a1" name="q2" value="แอมมิเตอร์">
+            <label for="q2a1">แอมมิเตอร์</label><br>
+            <input type="radio" id="q2a2" name="q2" value="โวล์ตมิเตอร์">
+            <label for="q2a2">โวล์ตมิเตอร์</label><br>
+            <input type="radio" id="q2a3" name="q2" value="โอห์มมิเตอร์">
+            <label for="q2a3">โอห์มิเตอร์</label><br>
+            <input type="radio" id="q2a4" name="q2" value="ทรานซิสเตอร์">
+            <label for="q2a4">ทรานซิสเตอร์</label><br>
+            <div class="answer" id="answer2"></div> <!-- Show answer here --><hr>
+
+            <p>3.อุปกรณ์อิเล็กทรอนิกส์ตามข้อใดที่ใช้สำหรับปิด-เปิดให้กระแสไฟ</p>
+            <input type="radio" id="q3a1" name="q3" value="สวิตซ์">
+            <label for="q3a1">สวิตซ์</label><br>
+            <input type="radio" id="q3a2" name="q3" value="ไดโอด">
+            <label for="q3a2">ไดโอด</label><br>
+            <input type="radio" id="q3a3" name="q3" value="วงจรรวม">
+            <label for="q3a3">วงจรรวม</label><br>
+            <input type="radio" id="q3a4" name="q3" value="ทรานซิสเตอร์">
+            <label for="q3a4">ทรานซิสเตอร์</label><br>
+            <div class="answer" id="answer3"></div> <!-- Show answer here --><hr>
+            
+            <p>4.แถบสีที่ 4 คือแถบสีทอง หมายถึงข้อใด</p>
+            <input type="radio" id="q4a1" name="q4" value="ตัวคูณ">
+            <label for="q4a1">ตัวคูณ</label><br>
+            <input type="radio" id="q4a2" name="q4" value="ตัวเลขที่1">
+            <label for="q4a2">ตัวเลขที่1</label><br>
+            <input type="radio" id="q4a3" name="q4" value="ตัวเลขที่2">
+            <label for="q4a3">ตัวเลขที่2</label><br>
+            <input type="radio" id="q4a4" name="q4" value="ความคลาดเคลื่น">
+            <label for="q4a4">ความคลาดเคลื่น</label><br>
+            <div class="answer" id="answer4"></div> <!-- Show answer here --><hr>
+            
+            <p>5.ปัจจุบันหน้าจอนาฬิกาดิจิตอล หรือนาฬิกาตัวเลข เครื่องเล่นวิทยุ เทป มีอุปกรณ์ชนิดหนึ่ง ที่ทำหน้าที่แสดงข้อความหรือตัวเลขด้านหน้า นักเรียนคิดว่าเป็นอุปกรณ์อิเล็กทรอนิกส์ชนิดใด</p>
+            <input type="radio" id="q5a1" name="q5" value="ไดโอด">
+            <label for="q5a1">ไดโอด</label><br>
+            <input type="radio" id="q5a2" name="q5" value="ซิลิคอนชิป">
+            <label for="q5a2">ซิลิคอนชิป</label><br>
+            <input type="radio" id="q5a3" name="q5" value="ตัวต้านทาน">
+            <label for="q5a3">ตัวต้านทาน</label><br>
+            <input type="radio" id="q5a4" name="q5" value="ทรานซิสเตอร์">
+            <label for="q5a4">ทรานซิสเตอร์</label><br>
+            <div class="answer" id="answer5"></div> <!-- Show answer here --><hr>
+            
+            <p>6.คุณสมบัติของตัวต้านทานชนิดใด เมื่อให้แสงหรือความเข้มแสงมากขึ้นแล้ว ตัวต้านทานจะมีค่าลดลง</p>
+            <input type="radio" id="q6a1" name="q6" value="ตัวต้านทานไวแสง">
+            <label for="q6a1">ตัวต้านทานไวแสง</label><br>
+            <input type="radio" id="q6a2" name="q6" value="ตัวต้านทานชนิดคงที่">
+            <label for="q6a2">ตัวต้านทานชนิดคงที่</label><br>
+            <input type="radio" id="q6a3" name="q6" value="ตัวต้านทานไวความร้อน">
+            <label for="q6a3">ตัวต้านทานไวความร้อน</label><br>
+            <input type="radio" id="q6a4" name="q6" value="ตัวต้านทานชนืดปรับค่าได้">
+            <label for="q6a4">ตัวต้านทานชนืดปรับค่าได้</label><br>
+            <div class="answer" id="answer6"></div> <!-- Show answer here --><hr>
+            
+            <p>7.อุปกรณ์อิเล็กทรอนิกส์ในข้อใดทำหน้าที่รวมเอาชิ้นส่วนต่างๆ มาประกอบเป็นวงจรเพื่อนำไปใช้งานตามต้องการ</p>
+            <input type="radio" id="q7a1" name="q7" value="วงจรรวม">
+            <label for="q7a1">วงจรรวม</label><br>
+            <input type="radio" id="q7a2" name="q7" value="ตัวเก็บประจุ">
+            <label for="q7a2">ตัวเก็บประจุ</label><br>
+            <input type="radio" id="q7a3" name="q7" value="แผงวงจรพิมพ์">
+            <label for="q7a3">แผงวงจรพิมพ์</label><br>
+            <input type="radio" id="q7a4" name="q7" value="แผงทดลลองวงจร">
+            <label for="q7a4">แผงทดลลองวงจร</label><br>
+            <div class="answer" id="answer7"></div> <!-- Show answer here --><hr>
+            
+            <p>8.ตัวต้านทานตัวหนึ่งอ่านแถบสีได้ คือ แดง เหลือง ดำ ค่าความต้านทานมีค่าเท่าใด</p>
+            <input type="radio" id="q8a1" name="q8" value="24โอห์ม">
+            <label for="q8a1">24โอห์ม</label><br>
+            <input type="radio" id="q8a2" name="q8" value="24กิโลโอห์ม">
+            <label for="q8a2">24กิโลโอห์ม</label><br>
+            <input type="radio" id="q8a3" name="q8" value="240โอห์ม">
+            <label for="q8a3">240โอห์ม</label><br>
+            <input type="radio" id="q8a4" name="q8" value="240กิโลโอห์ม">
+            <label for="q8a4">240กิโลโอห์ม</label><br>
+            <div class="answer" id="answer8"></div> <!-- Show answer here --><hr>
+            
+            <p>9.อุปกรณ์อิเล็กทรอนิกส์ตามข้อใดที่ใช้วัดค่าของกระแสไฟฟ้า และค่าความต่างศักย์ของไฟฟ้าในวงจร</p>
+            <input type="radio" id="q9a1" name="q9" value="ไดโอด">
+            <label for="q9a1">ไดโอด</label><br>
+            <input type="radio" id="q9a2" name="q9" value="แอมมิเตอร์และโวลต์มิเตอร์">
+            <label for="q9a2">แอมมิเตอร์และโวลต์มิเตอร์</label><br>
+            <input type="radio" id="q9a3" name="q9" value="กัลวานอมิเตอร์และแอมมิเตอร์">
+            <label for="q9a3">กัลวานอมิเตอร์และแอมมิเตอร์</label><br>
+            <input type="radio" id="q9a4" name="q9" value="แอมมิเตอร์และโอห์มมิเตอร์">
+            <label for="q9a4">แอมมิเตอร์และโอห์มมิเตอร์</label><br>
+            <div class="answer" id="answer9"></div> <!-- Show answer here --><hr>
+            
+            <p>10.อุปกรณ์อิเล็กทรอนิกส์ตามข้อใดที่ใช้สำหรับเก็บ สะสมประจุ เพื่อใช้ในวงจรไฟฟ้า</p>
+            <input type="radio" id="q10a1" name="q10" value="หม้อแปลง">
+            <label for="q10a1">หม้อแปลง</label><br>
+            <input type="radio" id="q10a2" name="q10" value="แบตเตอรี่">
+            <label for="q10a2">แบตเตอรี่</label><br>
+            <input type="radio" id="q10a3" name="q10" value="ตัวต้านทาน">
+            <label for="q10a3">ตัวต้านทาน</label><br>
+            <input type="radio" id="q10a4" name="q10" value="ตัวเก็บประจุ">
+            <label for="q10a4">ตัวเก็บประจุ</label><br>
+            <div class="answer" id="answer10"></div> <!-- Show answer here --><hr>
+            
+            <p>11.อุปกรณ์ตามข้อใดประกอบด้วยขดลวด ทำหน้าที่แปลงกระแสไฟฟ้าจากสูงไปต่ำ หรือจากต่ำไปสูง</p>
+            <input type="radio" id="q11a1" name="q11" value="หม้อแปลง">
+            <label for="q11a1">หม้อแปลง</label><br>
+            <input type="radio" id="q11a2" name="q11" value="ตัวต้านทาน">
+            <label for="q11a2">ตัวต้านทาน</label><br>
+            <input type="radio" id="q11a3" name="q11" value="โวลต์มิเตอร์">
+            <label for="q11a3">โวลต์มิเตอร์</label><br>
+            <input type="radio" id="q11a4" name="q11" value="เฟียโซอีเล็กทรอนิกส์">
+            <label for="q11a4">เฟียโซอีเล็กทรอนิกส์</label><br>
+            <div class="answer" id="answer11"></div> <!-- Show answer here --><hr>
+            
+            <p>12.การต่อความต้านทานในวงจรไดโอดเปล่งแสง เพื่อประโยชน์ในข้อใด</p>
+            <input type="radio" id="q12a1" name="q12" value="เพื่อเพิ่มปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างมากขึ้น">
+            <label for="q12a1">เพื่อเพิ่มปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างมากขึ้น</label><br>
+            <input type="radio" id="q12a2" name="q12" value="เพื่อลดปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างพอเหมาะ">
+            <label for="q12a2">เพื่อลดปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างพอเหมาะ</label><br>
+            <input type="radio" id="q12a3" name="q12" value="เพื่อรักษาปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างมากขึ้น">
+            <label for="q12a3">เพื่อรักษาปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างมากขึ้น</label><br>
+            <input type="radio" id="q12a4" name="q12" value="เพื่อเพิ่มและลดปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างพอเหมาะ">
+            <label for="q12a4">เพื่อเพิ่มและลดปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างพอเหมาะ</label><br>
+            <div class="answer" id="answer12"></div> <!-- Show answer here --><hr>
+            
+            <p>13.อุปกรณ์อิเล็กทรอนิกส์ในข้อใดที่ทำจากสารกึ่งตัวนำและยอมให้กระแสไฟฟ้าไหลผ่านตัวมันได้ทิศทางเดียว</p>
+            <input type="radio" id="q13a1" name="q13" value="สวิตช์">
+            <label for="q13a1">สวิตช์</label><br>
+            <input type="radio" id="q13a2" name="q13" value="ไดโอด">
+            <label for="q13a2">ไดโอด</label><br>
+            <input type="radio" id="q13a3" name="q13" value="ตัวต้านทาน">
+            <label for="q13a3">ตัวต้านทาน</label><br>
+            <input type="radio" id="q13a4" name="q13" value="ตัวเก็บประจุ">
+            <label for="q13a4">ตัวเก็บประจุ</label><br>
+            <div class="answer" id="answer13"></div> <!-- Show answer here --><hr>
+            
+            <p>14.สวิตช์ปรับความดังของวิทยุ เทป โทรทัศน์ หรือความเร็วของพัดลม เป็นการนำอุปกรณ์ชนิดใดมาใช้ประโยชน์</p>
+            <input type="radio" id="q14a1" name="q14" value="ไดโอด">
+            <label for="q14a1">ไดโอด</label><br>
+            <input type="radio" id="q14a2" name="q14" value="ซิลิคอนชิป">
+            <label for="q14a2">ซิลิคอนชิป</label><br>
+            <input type="radio" id="q14a3" name="q14" value="ตัวต้านทาน">
+            <label for="q14a3">ตัวต้านทาน</label><br>
+            <input type="radio" id="q14a4" name="q14" value="ทรานซิสเตอร์">
+            <label for="q14a4">ทรานซิสเตอร์</label><br>
+            <div class="answer" id="answer14"></div> <!-- Show answer here --><hr>
+            
+            <p>15.อุปกรณ์อิเล็กทรอนิกส์ตามข้อใดที่ทำจากสารกึ่งตัวนำ มีหน้าที่ควบคุมการเคลื่อนที่ของอิเล็กตรอน และใช้ขยายสัญญาณไฟฟ้าในวงจร</p>
+            <input type="radio" id="q15a1" name="q15" value="ไดโอด">
+            <label for="q15a1">ไดโอด</label><br>
+            <input type="radio" id="q15a2" name="q15" value="หม้อแปลง">
+            <label for="q15a2">หม้อแปลง</label><br>
+            <input type="radio" id="q15a3" name="q15" value="ทรานซิสเตอร์">
+            <label for="q15a3">ทรานซิสเตอร์</label><br>
+            <input type="radio" id="q15a4" name="q15" value="แผงวงจรพิมพ์">
+            <label for="q15a4">แผงวงจรพิมพ์</label><br>
+            <div class="answer" id="answer15"></div> <!-- Show answer here --><hr>
+            
+            <button type="button" onclick="checkAnswers()">ส่งคำตอบ</button>
+        </form>
+
+        <div id="results" class="results"></div> <!-- Overall results display -->
+
+    </div>
+
+    <script>
+        function checkAnswers() {
+            let score = 0;
+            const totalQuestions = 15;
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = ''; // Clear previous results
+            
+            // Question 1 check
+            const q1Answer = document.querySelector('input[name="q1"]:checked');
+            if (q1Answer) {
+                if (q1Answer.value === 'ทรานซิสเตอร์') {
+                    document.getElementById('answer1').innerHTML = '<p class="correct">ข้อ 1: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer1').innerHTML = '<p class="incorrect">ข้อ 1: ผิด, คำตอบที่ถูกต้องคือ ทรานซิสเตอร์</p>';
+                }
+            } else {
+                document.getElementById('answer1').innerHTML = '<p class="incorrect">ข้อ 1: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 2 check
+            const q2Answer = document.querySelector('input[name="q2"]:checked');
+            if (q2Answer) {
+                if (q2Answer.value === 'โอห์มมิเตอร์') {
+                    document.getElementById('answer2').innerHTML = '<p class="correct">ข้อ 2: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer2').innerHTML = '<p class="incorrect">ข้อ 2: ผิด, คำตอบที่ถูกต้องคือ โอห์มมิเตอร์</p>';
+                }
+            } else {
+                document.getElementById('answer2').innerHTML = '<p class="incorrect">ข้อ 2: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 3 check
+            const q3Answer = document.querySelector('input[name="q3"]:checked');
+            if (q3Answer) {
+                if (q3Answer.value === 'สวิตซ์') {
+                    document.getElementById('answer3').innerHTML = '<p class="correct">ข้อ 3: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer3').innerHTML = '<p class="incorrect">ข้อ 3: ผิด, คำตอบที่ถูกต้องคือ สวิตซ์</p>';
+                }
+            } else {
+                document.getElementById('answer3').innerHTML = '<p class="incorrect">ข้อ 3: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 4 check
+            const q4Answer = document.querySelector('input[name="q4"]:checked');
+            if (q4Answer) {
+                if (q4Answer.value === 'ความคลาดเคลื่อน') {
+                    document.getElementById('answer4').innerHTML = '<p class="correct">ข้อ 4: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer4').innerHTML = '<p class="incorrect">ข้อ 4: ผิด, คำตอบที่ถูกต้องคือ ความคลาดเคลื่อน</p>';
+                }
+            } else {
+                document.getElementById('answer4').innerHTML = '<p class="incorrect">ข้อ 4: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 5 check
+            const q5Answer = document.querySelector('input[name="q5"]:checked');
+            if (q5Answer) {
+                if (q5Answer.value === 'ไดโอด') {
+                    document.getElementById('answer5').innerHTML = '<p class="correct">ข้อ 5: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer5').innerHTML = '<p class="incorrect">ข้อ 5: ผิด, คำตอบที่ถูกต้องคือ ไดโอด</p>';
+                }
+            } else {
+                document.getElementById('answer5').innerHTML = '<p class="incorrect">ข้อ 5: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 6 check
+            const q6Answer = document.querySelector('input[name="q6"]:checked');
+            if (q6Answer) {
+                if (q6Answer.value === 'ตัวต้านทานไวความร้อน') {
+                    document.getElementById('answer6').innerHTML = '<p class="correct">ข้อ 6: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer6').innerHTML = '<p class="incorrect">ข้อ 6: ผิด, คำตอบที่ถูกต้องคือ ตัวต้านทานไวความร้อน</p>';
+                }
+            } else {
+                document.getElementById('answer6').innerHTML = '<p class="incorrect">ข้อ 6: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 7 check
+            const q7Answer = document.querySelector('input[name="q7"]:checked');
+            if (q7Answer) {
+                if (q7Answer.value === 'แผงวงจรพิมพ์') {
+                    document.getElementById('answer7').innerHTML = '<p class="correct">ข้อ 7: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer7').innerHTML = '<p class="incorrect">ข้อ 7: ผิด, คำตอบที่ถูกต้องคือ แผงวงจรพิมพ์</p>';
+                }
+            } else {
+                document.getElementById('answer7').innerHTML = '<p class="incorrect">ข้อ 7: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 8 check
+            const q8Answer = document.querySelector('input[name="q8"]:checked');
+            if (q8Answer) {
+                if (q8Answer.value === '24โอห์ม') {
+                    document.getElementById('answer8').innerHTML = '<p class="correct">ข้อ 8: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer8').innerHTML = '<p class="incorrect">ข้อ 8: ผิด, คำตอบที่ถูกต้องคือ 24โอห์ม</p>';
+                }
+            } else {
+                document.getElementById('answer8').innerHTML = '<p class="incorrect">ข้อ 8: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 9 check
+            const q9Answer = document.querySelector('input[name="q9"]:checked');
+            if (q9Answer) {
+                if (q9Answer.value === 'แอมมิเตอร์และโวลต์มิเตอร์') {
+                    document.getElementById('answer9').innerHTML = '<p class="correct">ข้อ 9: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer9').innerHTML = '<p class="incorrect">ข้อ 9: ผิด, คำตอบที่ถูกต้องคือ แอมมิเตอร์และโวลต์มิเตอร์</p>';
+                }
+            } else {
+                document.getElementById('answer9').innerHTML = '<p class="incorrect">ข้อ 9: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 10 check
+            const q10Answer = document.querySelector('input[name="q10"]:checked');
+            if (q10Answer) {
+                if (q10Answer.value === 'ตัวเก็บประจุ') {
+                    document.getElementById('answer10').innerHTML = '<p class="correct">ข้อ 10: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer10').innerHTML = '<p class="incorrect">ข้อ 10: ผิด, คำตอบที่ถูกต้องคือ ตัวเก็บประจุ</p>';
+                }
+            } else {
+                document.getElementById('answer10').innerHTML = '<p class="incorrect">ข้อ 10: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 11 check
+            const q11Answer = document.querySelector('input[name="q11"]:checked');
+            if (q11Answer) {
+                if (q11Answer.value === 'หม้อแปลง') {
+                    document.getElementById('answer11').innerHTML = '<p class="correct">ข้อ 11: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer11').innerHTML = '<p class="incorrect">ข้อ 11: ผิด, คำตอบที่ถูกต้องคือ หม้อแปลง</p>';
+                }
+            } else {
+                document.getElementById('answer11').innerHTML = '<p class="incorrect">ข้อ 11: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 12 check
+            const q12Answer = document.querySelector('input[name="q12"]:checked');
+            if (q12Answer) {
+                if (q12Answer.value === 'เพื่อลดปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างพอเหมาะ') {
+                    document.getElementById('answer12').innerHTML = '<p class="correct">ข้อ 12: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer12').innerHTML = '<p class="incorrect">ข้อ 12: ผิด, คำตอบที่ถูกต้องคือ เพื่อลดปริมาณกระแสไฟฟ้าที่ไหลผ่านแสงจะได้สว่างพอเหมาะ</p>';
+                }
+            } else {
+                document.getElementById('answer12').innerHTML = '<p class="incorrect">ข้อ 12: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 13 check
+            const q13Answer = document.querySelector('input[name="q13"]:checked');
+            if (q13Answer) {
+                if (q13Answer.value === 'ไดโอด') {
+                    document.getElementById('answer13').innerHTML = '<p class="correct">ข้อ 13: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer13').innerHTML = '<p class="incorrect">ข้อ 13: ผิด, คำตอบที่ถูกต้องคือ ไดโอด</p>';
+                }
+            } else {
+                document.getElementById('answer13').innerHTML = '<p class="incorrect">ข้อ 13: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 14 check
+            const q14Answer = document.querySelector('input[name="q14"]:checked');
+            if (q14Answer) {
+                if (q14Answer.value === 'ตัวต้านทาน') {
+                    document.getElementById('answer14').innerHTML = '<p class="correct">ข้อ 14: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer14').innerHTML = '<p class="incorrect">ข้อ 14: ผิด, คำตอบที่ถูกต้องคือ ตัวต้านทาน</p>';
+                }
+            } else {
+                document.getElementById('answer14').innerHTML = '<p class="incorrect">ข้อ 14: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Question 15 check
+            const q15Answer = document.querySelector('input[name="q15"]:checked');
+            if (q15Answer) {
+                if (q15Answer.value === 'ทรานซิสเตอร์') {
+                    document.getElementById('answer15').innerHTML = '<p class="correct">ข้อ 15: ถูกต้อง</p>';
+                    score++;
+                } else {
+                    document.getElementById('answer15').innerHTML = '<p class="incorrect">ข้อ 15: ผิด, คำตอบที่ถูกต้องคือ ทรานซิสเตอร์</p>';
+                }
+            } else {
+                document.getElementById('answer15').innerHTML = '<p class="incorrect">ข้อ 15: กรุณาเลือกคำตอบ</p>';
+            }
+    
+            // Final score
+            resultsDiv.innerHTML += `<p>คุณได้คะแนน ${score} จาก ${totalQuestions} ข้อ</p>`;
+        }
+    </script>
+    
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+

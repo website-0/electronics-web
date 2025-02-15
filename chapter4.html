@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>บทที่4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Electronics</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> เมนู
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active"><a href="index.html" class="nav-link">หน้าแรก</a></li>
+                  <li class="nav-item"><a href="chapter1.html" class="nav-link">บทที่1</a></li>
+                  <li class="nav-item"><a href="chapter2.html" class="nav-link">บทที่2</a></li>
+                  <li class="nav-item"><a href="chapter3.html" class="nav-link">บทที่3</a></li>
+                  <li class="nav-item"><a href="chapter4.html" class="nav-link">บทที่4</a></li>
+                  <li class="nav-item"><a href="quiz.html" class="nav-link">แบบทดสอบ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END nav -->
+    <div class="block-31" style="position: relative;">
+        <div class="block-30 item" style="background-image: url('images/chapter4.png');">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-10">
+                        <span class="subheading-sm">Welcome</span>
+                        <h2 class="heading">Chapter4</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row site-section">
+            <div class="col-md-12">
+                <div class="row mb-5">
+                  <div class="col-md-7 section-heading">
+                    <h4 class="heading">บทที่ 4 วงจรดิจิทัล </h4>
+                    <span class="subheading-sm">4.1 สัญญาณดิจิทัล กับ เลขฐานสอง </span>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <p style="text-indent: 2.5em;">
+            สัญญาณดิจิทัล (Digital Signal) เป็นสัญญาณที่มีค่าระดับแรงดันเพียงไม่กี่ระดับ โดยจะมีระดับสัญญาณอย่างน้อยที่สุดคือ สองระดับ (Binary) ที่เรียกว่า ระดับสูง (High) และ ระดับต่ํา (Low) โดย สัญญาณนี้ มักจะเป็นสัญญาณแรงดัน สําหรับวงจรดิจิทัลที่ใช้งานกันอย่างแพร่หลาย เราจะยอมรับว่า ระดับต่ํา คือ ระดับแรงดัน ระหว่าง 0.0 ถึง 0.8 โวลต์ และ ระดับสูง คือ ระดับแรงดันระหว่าง 2.0 ถึง 5.0 โวลต์  โดยการแบ่งสัญญาณเป็นสองระดับนี้ เปรียบเทียบได้กับ ค่าความจริง จริง (True, T) และ เท็จ (False, F) ในตรรกศาสตร์ หรือ เทียบเป็น ลอจิก “1” และ ลอจิก“0”  ตารางที่ 4-1 เปรียบเทียบปริมาณต่าง ๆ ในระบบดิจิทัล           
+        </p>
+        <p style="text-indent: 2.5em;">
+            หากเราเทียบ สัญญาณดิจิทัล กับ สัญญาณแอนะล็อก จะเห็นได้ว่า สัญญาณแอนะล็อกซึ่งมีค่าต่อเนื่องสามารถเก็บข้อมูลได้มาก แต่ข้อเสียประการหนึ่งของสัญญาณแอนะล็อก คือ มันมีความไวต่อสัญญาณรบกวน (Noise) มาก ดังนั้น ในวงจรแอนะ-ล็อกเรามักจะต้องใช้แรงดันที่ค่อนข้างสูง และ จะต้องมีการขยายสัญญาณเพื่อให้ข้อมูลคงอยู่เสมอ  สําหรับสัญญาณดิจิทัลนี้ มันมีข้อดีคือ แม้ระบบ (วงจรดิจิทัล) ได้รับสัญญาณรบกวนมาก แต่หากระดับแรงดันยังไม่ถูกเปลี่ยนแปลงไปมากเกินไป สัญญาณดิจิทัลก็ยังคงส่งข้อมูลได้อย่างถูกต้อง  รูปที่ 4-1 แสดงตัวอย่างสัญญาณดิจิทัล ที่มีสัญญาณรบกวนซ้อนอยู่ 
+        </p>
+        <p style="text-indent: 2.5em;">
+            สําหรับไอซีดิจิทัล ที่มีการใช้งานกันอย่างแพร่หลาย คือ ไอซีตระกูลทีทีแอล (TTL) ซึ่งย่อมาจาก Transistor-Transistor Logic (ทรานซิสเตอร์-ทรานซิสเตอร์ลอจิก)  โดยไอซีตระกูลนี้ใช้ทรานซิสเตอร์ชนิดบีเจทีเป็นองค์ประกอบหลัก สําหรับมาตรฐานระดับแรงดันขาเข้าและแรงดันขาออกของไอซีดิจิทัลตระกูลทีทีแอล จะมีความต่างกันอยู่บ้างในรายละเอียด  โดยในรูปที่ 4-2 แสดง ระดับแรงดันสัญญาณขาเข้า และ ระดับสัญญาณแรงดันขาออก ที่ใช้ได้กับไอซีตระกูลนี้ 
+        </p>
+        <center><img src="images/chapter4/2.jpg"></center>
+        <p align="center">
+            รูปที่ 4-1 ตัวอย่างสัญญาณข้อมูลดิจิทัล ที่มีสัญญาณรบกวน (Noise) ซ้อนอยู่ <br>โดยข้อมูลนี้แทนด้วยเลขฐานสอง คือ 10102 
+        </p>
+        <center><img src="images/chapter4/3.jpg"></center>
+        <p align="center">
+            รูปที่ 4-2 มาตรฐานระดับแรงดันสัญญาณขาเข้า และ<br> แรงดันขาออก ของไอซีดิจิทัลตระกูลทีทีแอล 
+        </p>
+        <p style="text-indent: 2.5em;">
+            สัญญาณดิจิทัลหนึ่งสัญญาณ ที่มีสองระดับ เปรียบได้เสมือนกับ เลชฐานสองหนึ่งหลัก ดังนั้น ในการประมวลข้อมูลในระบบดิจิทัล เรามักจะนําเสนอข้อมูลนี้ด้วย ตัวเลขในระบบเลขฐานสอง  ในระบบเลขฐานสอง เรามีตัวฐานคือ เลขยกกําลังของสอง ในขณะที่เลขฐานสิบ เรามีตัวฐานคือ เลขยกกําลังของสิบ เช่น 2557 ฐาน 10 ในระบบเลขฐานสอง เราเขียนได้เป็น 
+        </p>
+        <center><p>2557  =  (2×103) + (5×102) + (5×101) + (7×100) </p></center>
+        <p>สําหรับเลขฐานสอง ตัวอย่างเช่น 10102 เราจะหาค่าในระบบเลขฐานสิบได้คือ </p>
+        <center><p>10102  =  (1×23) + (0×22) + (1×21) + (0×20) </p></center>
+        <p>โดยเราสามารถแปลงเลขฐานสองให้เป็นเลขฐานสิบได้โดยการคํานวณผลรวมข้างต้น คือ 10102 = 8 + 0 + 2 + 0 = 10 </p>
+        <p style="text-indent: 2.5em;">
+            ตารางที่ 4-2 แสดงตัวอย่างการนําเสนอจํานวนเต็ม 0 ถึง 15 ในระบบเลขฐานต่าง ๆ โดยสําหรับเลขฐานสอง เราจะต้องใช้เลข 4 หลัก หรือ 4 บิต (bits) ในการนําเสนอ เนื่องจากเลขฐานสองแต่ละหลัก เก็บข้อมูลได้เพียง 0 กับ 1 เท่านั้น โดยปกติ บิตที่อยู่ซ้ายสุด (มีค่าประจําหลักมากที่สุด) จะถูกเรียกว่า MSB (Most Significant Bit, บิตที่มีนัยสําคัญสูงสุด) และ บิตที่อยู่ขวาสุด (มีค่าประจําหลักน้อยที่สุด) จะถูกเรียกว่า LSB (Least Significant Bit, บิตที่มีนัยสําคัญต่ําสุด)  โดยทั่วไปในระบบคอมพิวเตอร์ เราจะกําหนดให้ 8 บิต คือ 1 ไบต์ (Byte) 
+        </p>
+        <center><img src="images/chapter4/4.png"></center>
+        <p>
+            MSB = Most Significant Bit, LSB = Least Significant Bit 
+        </p>
+        <p style="text-indent: 2.5em;">
+            ในบางครั้ง เราจะใช้ เลขฐานสิบหก ในการนําเสนอ ค่าสัญญาณดิจิทัล เนื่องจากการเขียนเลขฐานสองจํานวนใหญ่ ๆ ทําได้ยาก ทั้งนี้ เลขฐานสิบหก มีข้อดี คือ ตัวเลขเพียงตัวเดียว (หลักเดียว) ในเลขฐานสิบหกนี้ สามารถแทน เลขสี่ตัว (สี่หลัก) ในระบบเลขฐานสอง 
+        </p>
+    </div>
+
+    <div class="site-section block-13 bg-light">
+        <div class="container">
+            <div class="row site-section">
+                <div class="col-md-12">
+                    <div class="row mb-5">
+                    <div class="col-md-7 section-heading">
+                        <span class="subheading-sm">4.2 ตรรกศาสตร์ และ วงจรตรรก </span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <p style="text-indent: 2.5em;">
+                ในตรรกศาสตร์ เราคํานึงถึง ค่าความจริง (ค่าจริง หรือ เท็จ) ซึ่งสามารถเทียบได้กับลอจิก “1” หรือ “0” หรือ ระดับสูงหรือต่ํา สําหรับสัญญาณดิจิทัล  โดยในทางตรรกศาสตร์ เรามีตัวดําเนินการพื้นฐาน คือ “และ” “หรือ” และ “นิเสธ” โดยตัวดําเนินการเหล่านี้ สามารถเทียบได้กับ สัญลักษณ์ “แอนด์ (AND)” “ออร์ (OR)” และ “นอต (NOT)” ในพีชคณิตบูลีน (Boolean Algebra) ดังแสดงในตารางที่ 4-3 	ในการแสดงการคํานวณเกี่ยวกับ ตรรกศาสตร์ เรามักจะใช้ ตารางค่าความจริง (Truth Table) ในการนําเสนอผลของการดําเนินการ ในกรณีที่ค่าตัวแปรต้น มีค่าต่างๆ  ตัวอย่าง ตารางค่าความจริงของ การดําเนินการ แอนด์ ออร์ และ นอต แสดงดังในรูปที่ 4-2 
+            </p>
+            <p align="center">ตารางที่ 4-3 สัญลักษณ์ของตัวดําเนินการแอนด์ ออร์ และ นอต </p>
+            <center><img src="images/chapter4/5.png"></center><br>
+            <center><img src="images/chapter4/6.png"></center><br>
+            <p align="center">รูปที่ 4-2 ตารางค่าความจริงของการดําเนินการ (ก) แอนด์ และ ออร์ และ (ข) นอต </p>
+            <p style="text-indent: 2.5em;">
+                กฎพื้นฐานในพีชคณิตบูลีน  หากเรานํา ตัวดําเนินการ แอนด์ ออร์ และ นอต มาใช้ เราอาจต้องใช้ กฎต่าง ๆ ต่อไปนี้ ในการ วิเคราะห์หาผลลัพธ์ 
+            </p>
+            <p style="text-indent: 2.5em;">
+                สําหรับ ในวงจรดิจิทัล ที่ใช้ในการประมวลสัญญาณดิจิทัล  เรามีการสร้างลอจิกเกต (Logic Gate) ชนิดต่าง ๆ โดย เกตพื้นฐาน ที่มีการดําเนินการเหมือนกับ ตัวดําเนินการพื้นฐานในตรรกศาสตร์ คือ แอนด์เกต (AND Gate) ออร์เกต (OR Gate) และ นอตเกต (NOT Gate) หรือ อินเวอร์เตอร์ (Inverter) มีสัญลักษณ์ทางวงจร แสดงในรูปที่ 4-3 
+            </p>
+            <p style="text-indent: 2.5em;">
+                นอกจากเกตพื้นฐานแล้ว เรายังมีการใช้เกตดิจิทัลอื่น ๆ (ดูรูปที่ 4-4) ได้แก่ แนนด์เกต (NAND Gate)นอร์เกต (NOR Gate)เอ็กซ์ออร์เกต (XOR Gate) หรือ เอ็กซ์คลูซิฟออร์เกต (Exclusive OR Gate)  และ เอ็กซ์นอร์เกต (XNOR Gate) หรือ เอ็กซ์คลูซิฟนอร์เกต (Exclusive NOR Gate)  โดยเกตเหล่านี้ ถูกสร้างขึ้นเพื่อให้เราสามารถนํามาใช้สร้างวงจรลอจิกลักษณะต่าง ๆ ได้อย่างสะดวก 
+            </p>
+            <center><img src="images/chapter4/7.jpg"></center><br>
+            <p align="center">
+                รูปที่ 4-3 สัญลักษณ์ทางวงจร ของ แอนด์เกต ออร์เกต และ นอตเกต และ <br>ตารางค่าความจริงของการดําเนินการด้วยเกตเหล่านี้ 
+            </p>
+            <center><img src="images/chapter4/8.jpg"></center><br>
+            <p align="center">
+                รูปที่ 4-4 สัญลักษณ์ทางวงจร ของ แนนด์เกต นอร์เกต เอ็กซ์ออร์เกต และ<br> เอ็กซ์นอร์เกต และ ตารางค่าความจริงของการดําเนินการด้วยเกตเหล่านี้ 
+            </p>
+            <p style="text-indent: 2.5em;">
+                การใช้ลอจิกเกตต่าง ๆ ในรูปที่ 4-3 และ 4-4 นั้น  นอกจากที่เราจะต้องทราบผลลัพธ์ที่ได้จาก ตารางค่าความจริงของเกตแต่ละตัวแล้ว เราจะต้องเลือกเบอร์ไอซีที่ถูกต้องด้วย โดยสําหรับลอจิกเกตพื้นฐาน มีเบอร์ไอซีดิจิทัลตระกูลทีทีแอล เบอร์ 74xxyy ดังแสดงในตารางที่ 4-4 
+            </p>
+            <p style="text-indent: 2.5em;">
+                เบอร์ของไอซีตระกูลทีทีแอล ระบุชนิดของตัวดําเนินการ ดังแสดงในตารางที่ 
+                4-4 และ มันยังมีส่วนที่บ่งบอกชนิดของวงจรภายในตัวไอซีด้วย โดยชนิดเหล่านี้ ถูก
+                ระบุด้วยตัวย่อ ดังแสดงในตารางที่ 4-5
+            </p> 
+            <p style="text-indent: 2.5em;">
+                ในการใช้ไอซีดิจิทัลเบอร์ต่าง ๆ นั้น เราจะต้องทราบรายละเอียดของไอซี ซึ่งมีอยู่ในแผ่นข้อมูล (Datasheet) ของไอซีเบอร์นั้น ๆ โดยตัวอย่างแผ่นข้อมูลของ ไอซีเบอร์ 74LS00 ซึ่งมีแนนด์เกต 4 ตัวอยู่ภายใน แสดงดังในรูปที่ 4-5  ข้อมูลในแผ่นข้อมูลนี้ มีรายละเอียดต่าง ๆ แบ่งได้เป็น 5 ส่วน คือ 
+            </p>
+            <p style="text-indent: 2.5em;">
+                1. ลักษณะภายนอกไอซี และ ขั้วต่อ โดยจากรูปจะเห็นได้ว่า ขั้วต่อใด เป็น ขั้วต่อขาเข้า ขั้วต่อขาออก ขั้วต่อไฟเลี้ยง (VCC) และ ขั้วต่อกราวด์ (GND) 
+            </p>
+            <p style="text-indent: 2.5em;">
+                2. ช่วงของค่า แรงดัน กระแส และ อุณหภูมิ ที่ไอซีทํางาน 
+            </p>
+            <p style="text-indent: 2.5em;">
+                3. ค่าแรงดัน (สูงสุด ปกติ และ ต่ําสุด) ขณะทํางานที่ระดับสูง และ ต่ํา 
+            </p>
+            <p style="text-indent: 2.5em;">
+                4. ค่ากระแสพิกัดต่าง ๆ 
+            </p>
+            <p style="text-indent: 2.5em;">
+                5. ค่าเวลาประวิง (delay) ซึ่งก็คือเวลาในการตอบสนองของวงจร โดยเวลานี้จะเป็นตัวกําหนดความเร็วสูงสุดในการทํางานของไอซี 
+            </p>
+            <p style="text-indent: 2.5em;">
+                นอกจากไอซีเบอร์ 74xxyyy ซึ่งเป็นไอซีดิจิทัลตระกูลทีทีแอลแล้ว เรายังมี การใช้ไอซีดิจิทัลตระกูลซีมอส ซึ่งสร้างจากการใช้ทรานซิสเตอร์แบบมอสเฟต เป็นหลัก โดยไอซีตระกูลนี้ จะมีเบอร์ 4zzzz เช่น ไอซีเบอร์ 4011 คือ แนนด์เกต 
+            </p>
+            <center><img src="images/chapter4/11.png"></center><br>
+            <p align="center">
+                รูปที่ 4-5 แผ่นข้อมูลของไอซีเบอร์ 74LS00 ที่มีแนนด์เกต 4 ตัวบรรจุอยู่<br> (ผลิตโดยบริษัท Motorola)             
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row site-section">
+            <div class="col-md-12">
+                <div class="row mb-5">
+                <div class="col-md-7 section-heading">
+                    <span class="subheading-sm">4.3 วงจรคอมบิเนชั่น </span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <p style="text-indent: 2.5em;">
+            สําหรับวงจรตรรกที่กล่าวถึงในหัวข้อที่แล้ว เราสามารถนํามันมาประกอบกันเป็นวงจรที่ซับซ้อนได้ในไอซีตัวเดียว  เทคโนโลยีการสร้างวงจรรวมในปัจจุบันทําให้เราสามารถรวมเกตต่าง ๆ ได้จํานวนมาก  โดยเราเรียกวงจรรวมที่ใช้ประมวลสัญญาณดิจิทัลที่มีลักษณะไม่เปลี่ยนแปลงตามเวลา แต่เปลี่ยนแปลงตามระดับสัญญาณขาเข้าเท่านั้น ว่าคือ วงจรคอมบิเนชั่นลอจิก (Combination Logic Circuit)  รูปที่ 4-6 แสดงลักษณะวงจรคอมบิเนชั่น ที่มีสัญญาณขาเข้าและสัญญาณขาออกหลายสัญญาณ 
+        </p>
+        <p style="text-indent: 2.5em;">
+            ตัวอย่างหนึ่งสําหรับ วงจรคอมบิเนชั่น คือ วงจรบวก 1 บิต ที่เรียกว่า Half Adder ดังแสดงในรูปที่ 4-7  โดย A และ B คือ ข้อมูลขาเข้า (Input) ที่เป็นสัญญาณดิจิทัล (มีค่าเป็น “0” หรือ “1” เท่านั้น) โดยผลลัพธ์ คือ ผลบวก (SUM) และ ตัวทด (CARRY) จะหาได้จากการใช้ เอ็กซ์ออร์เกต สําหรับ ผลบวก และ แอนด์เกต สําหรับ ตัวทด  วงจรบวกหนึ่งบิตนี้ สามารถนําไปสร้างขยายออกไปเป็นวงจรบวกเลขฐานสอง ในระบบดิจิทัลได้ 
+        </p>
+        <center><img src="images/chapter4/12.jpg"></center>
+        <p align="center">รูปที่ 4-6 วงจรคอมบิเนชั่นลอจิก </p>
+        <center><img src="images/chapter4/13.png"></center>
+        <p align="center">รูปที่ 4-7 วงจรบวกขนาดหนึ่งบิต (Half Adder) </p>
+        <p style="text-indent: 2.5em;">
+            อีกตัวอย่างหนึ่งสําหรับ วงจรคอมบิเนชั่น ที่มีการใช้งานกันอย่างแพร่หลาย คือ วงจรมัลติเพลกเซอร์ (Multiplexer) ซึ่งเป็นวงจรที่ใช้ในการเลือกสัญญาณออก จากสัญญาณเข้าหลาย ๆ สัญญาณ  โดยจะมีลักษณะเหมือนอย่างง่ายเหมือนสวิตช์ รูปที่ 4-8 แสดง ลักษณะมัลติเพลกเซอร์ ชนิด 4-เป็น-1 โดยการกําหนดค่าของตัวเลือกข้อมูล I0 และ I1 เราจะสามารถเลือกให้สัญญาณ D0, D1, D2 หรือ D3 ผ่านออกไปได้ 
+        </p>
+        <center><img src="images/chapter4/14.png"></center>
+        <p align="center">รูปที่ 4-8 ลักษณะวงจรมัลติเพลกเซอร์ ที่ทําหน้าที่เป็นสวิตช์เลือกสัญญาณออก <br>Fจากสัญญาณเข้า D0, D1, D2 และ D3  โดยตัวเลือกข้อมูล คือ สัญญาณ  I0 และ I1 </p>
+        <p style="text-indent: 2.5em;">
+            ในการวิเคราะห์เพื่อสร้างวงจรมัลติเพลกเซอร์ที่นําเสนอในรูปที่ 4-8 เราสามารถทําได้โดยการเขียนรูปแบบทางคณิตศาสตร์บูลีนของสัญญาณขาออกที่ต้องการ ซึ่งก็คือ 
+        </p>
+        <center><p>F	=	I	1	⋅	I	0	⋅	D 0	+	I	1	⋅	I	0	⋅	D 1	+	I 1	⋅	I	0	⋅	D 2	+	I 1	⋅	I	0	⋅	D 3</p></center>
+        <p>
+            ดังนั้น เราจึงสามารถสร้างวงจรนี้ได้จริง โดยใช้เกตต่าง ๆ ดังแสดงในรูปที่ 4-9(ก) และ เราสามารถเขียนเป็นแผนภาพบล็อกของมัลติเพลกเซอร์นี้ได้ ดังแสดงในรูปที่ 4-9(ข) 
+        </p>
+        <center><img src="images/chapter4/15.jpg"></center>
+        <p align="center">รูปที่ 4-9 (ก) ลักษณะโครงสร้างภายใน และ (ข) <br>แผนภาพบล็อกของ 4-เป็น-1 มัลติเพลกเซอร์ </p>
+        <p style="text-indent: 2.5em;">
+            สําหรับ วงจรคอมบิเนชั่น อีกวงจรหนึ่งที่มีการใช้งานกันอย่างแพร่หลาย คือ วงจรดีมัลติเพลกเซอร์ (Demultiplexer) ซึ่งเป็นวงจรที่ใช้ในการเลือกขาออกของสัญญาณ จากสัญญาณเข้าเพียงสัญญาณเดียว  โดยมันจะมีลักษณะคล้ายวงจร มัลติเพลกเซอร์  รูปที่ 4-10 แสดง ลักษณะแผนภาพบล็อกของดีมัลติเพลกเซอร์ ชนิด 1-เป็น-4 พร้อมทั้งวงจรภายใน และ ตารางค่าความจริง 
+        </p>
+        <p style="text-indent: 2.5em;">
+            นอกจาก เกต และ วงจรดิจิทัล ที่ศึกษาในบทนี้  วงจรดิจิทัลยังมีอีกจํานวนมาก เกินกว่าที่จะกล่าวในรายละเอียดได้หมดในที่นี้  โดยวงจรดิจิทัลอีกประเภทหนึ่งที่มีการนําไปใช้งานอย่างมาก คือ วงจรซีเควนเชียลลอจิก (Sequential Logic Circuit) ที่มีลักษณะของสัญญาณขาออกที่ขึ้นกับเวลาด้วย  ตัวอย่างหนึ่งของวงจรลักษณะนี้ คือ วงจรนับ (Counter) ซึ่งใช้มาก ในงานด้านการประมวลผลข้อมูล  รูปที่ 4-11 แสดงตัวอย่างการสร้างวงจรที่ใช้ในการนับพัลส์ เพื่อหาความถี่ของสัญญาณ 
+        </p>
+        <center><img src="images/chapter4/16.png"></center>
+        <p align="center">รูปที่ 4-10 แผนภาพบล็อกของ 1-เป็น-4 ดีมัลติเพลกเซอร์<br> ลักษณะวงจรภายใน และ ตารางค่าความจริงของวงจร </p>
+        <p style="text-indent: 2.5em;">
+            สําหรับการเชื่อมต่อระหว่างระบบดิจิทัล และ ระบบแอนะล็อก หรือ การนําสัญญาณดิจิทัลไปใช้งาน  เราก็สามารถทําได้โดยการใช้ ไอซีประเภท เอทูดี (A/D) หรือ แอนะล็อก-ทู-ดิจิทัล (Analog-to-Digital) ในการแปลงสัญญาณแอนะล็อกเป็น ดิจิทัล  และ เราจะใช้ ไอซีประเภท ดีทูเอ (D/A) หรือ ดิจิทัล-ทู-แอนะล็อก (Digital-to-Analog) ในการแปลงสัญญาณดิจิทัลเป็นสัญญาณแอนะล็อก 
+        </p>
+        <center><img src="images/chapter4/17.png"></center>
+        <p align="center">รูปที่ 4-11 ตัวอย่างวงจรนับพัลส์ ที่ใช้วงจรซีเควนเชียลลอจิก<br> ซึ่งเป็นวงจรดิจิทัลประเภทหนึ่ง </p>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <a href="chapter3.html" style="margin-right: 20px;">
+            <img src="images/back.png" width="50" height="50"><br><b>BACK</b>
+        </a>
+        <a href="quiz.html">
+            <img src="images/next.png" width="50" height="50"><br><b>แบบทดสอบ</b>
+        </a>
+    </div>
+
+    <!-- loader -->
+<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
